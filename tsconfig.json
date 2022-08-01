@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist", //Dizer para o projeto onde se quer gerar o código JS
+        "module": "CommonJS",//Gera no formato do commonJs, sobre importação de bibliotecas
+        "target": "es2019",//versao do ecma script
+        "esModuleInterop": true,//faz conversao dos modulos que usa common js, se usa import faz funcionar
+        "allowJs": true//se tiver arq de config no formato js inclui no dist
+    }
+}
